@@ -190,3 +190,10 @@ footer p{
 margin:5px 0;
 font-size:16px;
 }
+.welcome{
+background:#ffcc00;
+color:#000;
+padding:10px;
+font-size:18px;
+font-weight:bold;
+}
