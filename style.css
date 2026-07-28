@@ -161,3 +161,20 @@ font-weight:bold;
 .map-btn:hover{
 background:#b71c1c;
 }
+.contact{
+background:#222;
+color:#fff;
+text-align:center;
+padding:40px 20px;
+}
+
+.contact h2{
+font-size:32px;
+margin-bottom:20px;
+color:#FFD700;
+}
+
+.contact p{
+font-size:18px;
+margin:10px 0;
+}
