@@ -197,3 +197,13 @@ padding:10px;
 font-size:18px;
 font-weight:bold;
 }
+.counter{
+text-align:center;
+padding:25px;
+background:#f8f8f8;
+}
+
+.counter h2{
+color:#0b6b3a;
+margin-bottom:10px;
+}
