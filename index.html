@@ -72,6 +72,12 @@ target="_blank">
     <p>© 2026 BAKKAR COMPUTER CENTER</p>
     <p>Developed with ❤️ by BAKKAR COMPUTER CENTER</p>
 </footer>
+  <script>
+let count = localStorage.getItem("visitCount");
+count = count ? parseInt(count) + 1 : 1;
+localStorage.setItem("visitCount", count);
+document.getElementById("visitCount").innerText = count;
+</script>
 </body>
   <section class="contact">
     <h2>যোগাযোগ করুন</h2>
