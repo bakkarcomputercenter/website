@@ -135,3 +135,29 @@ z-index:999;
 .call-btn:hover{
 transform:scale(1.1);
 }
+.map-section{
+text-align:center;
+padding:40px 20px;
+background:#f5f5f5;
+}
+
+.map-section h2{
+margin-bottom:20px;
+font-size:30px;
+color:#0b6b3a;
+}
+
+.map-btn{
+display:inline-block;
+padding:15px 30px;
+background:#d32f2f;
+color:#fff;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+font-weight:bold;
+}
+
+.map-btn:hover{
+background:#b71c1c;
+}
