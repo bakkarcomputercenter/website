@@ -202,7 +202,34 @@ text-align:center;
 padding:25px;
 background:#f8f8f8;
 }
+#services{
+padding:40px 20px;
+}
 
+#services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.service-card{
+background:#ffffff;
+padding:18px;
+border-radius:12px;
+text-align:center;
+font-size:18px;
+font-weight:bold;
+border:2px solid #0b6b3a;
+transition:0.3s;
+cursor:pointer;
+}
+
+.service-card:hover{
+background:#0b6b3a;
+color:#ffffff;
+transform:translateY(-5px);
+box-shadow:0 8px 15px rgba(0,0,0,.2);
+}
 .counter h2{
 color:#0b6b3a;
 margin-bottom:10px;
