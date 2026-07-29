@@ -263,3 +263,22 @@ box-shadow:0 4px 10px rgba(0,0,0,.3);
 #topBtn:hover{
 background:#084d2b;
 }
+.apply-btn{
+position:fixed;
+bottom:160px;
+right:20px;
+background:#ff9800;
+color:#fff;
+padding:12px 18px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+z-index:999;
+transition:.3s;
+}
+
+.apply-btn:hover{
+background:#e68900;
+transform:scale(1.05);
+}
