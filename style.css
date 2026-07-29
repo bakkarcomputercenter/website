@@ -234,3 +234,13 @@ box-shadow:0 8px 15px rgba(0,0,0,.2);
 color:#0b6b3a;
 margin-bottom:10px;
 }
+#searchInput{
+width:100%;
+max-width:450px;
+padding:12px;
+margin:20px auto;
+display:block;
+border:2px solid #0b6b3a;
+border-radius:8px;
+font-size:18px;
+}
