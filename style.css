@@ -244,3 +244,22 @@ border:2px solid #0b6b3a;
 border-radius:8px;
 font-size:18px;
 }
+#topBtn{
+display:none;
+position:fixed;
+bottom:20px;
+left:20px;
+z-index:999;
+background:#0b6b3a;
+color:#fff;
+border:none;
+padding:15px;
+border-radius:50%;
+font-size:20px;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+
+#topBtn:hover{
+background:#084d2b;
+}
