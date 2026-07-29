@@ -105,16 +105,17 @@ count = count ? parseInt(count) + 1 : 1;
 localStorage.setItem("visitCount", count);
 document.getElementById("visitCount").innerText = count;
 </script>
-  #searchInput{
-width:100%;
-max-width:450px;
-padding:12px;
-margin:20px auto;
-display:block;
-border:2px solid #0b6b3a;
-border-radius:8px;
-font-size:18px;
+ <script>
+function searchService() {
+  let input = document.getElementById("searchInput").value.toLowerCase();
+  let cards = document.getElementsByClassName("service-card");
+
+  for (let i = 0; i < cards.length; i++) {
+    let text = cards[i].innerText.toLowerCase();
+    cards[i].style.display = text.includes(input) ? "block" : "none";
+  }
 }
+</script>
 </body>
   <section class="contact">
     <h2>যোগাযোগ করুন</h2>
