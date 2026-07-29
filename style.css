@@ -302,3 +302,8 @@ font-weight:bold;
 nav a:hover{
 color:#ffcc00;
 }
+.service-card{
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
